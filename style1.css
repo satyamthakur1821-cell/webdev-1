@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f1f5f9 0%, #cbd5e1 100%);
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #1e293b;
+}
+
+.dashboard {
+    display: flex;
+    gap: 20px;
+}
+
+.form-section, .events-section, .demo-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+.form-section { flex: 1; }
+.events-section { flex: 2; }
+
+.form-group { margin-bottom: 15px; }
+label { display: block; margin-bottom: 5px; font-weight: bold; }
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #475569;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover { background-color: #1e293b; }
+
+.controls { margin-bottom: 15px; display: flex; gap: 10px; }
+
+/* Event Card Styling */
+.event-card {
+    background: #f8fafc;
+    border-left: 5px solid #64748b;
+    padding: 15px;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #94a3b8;
+    padding: 2px 8px;
+    font-size: 12px;
+}
+
+.demo-content {
+    background: #f1f5f9;
+    padding: 15px;
+    border-radius: 5px;
+}
